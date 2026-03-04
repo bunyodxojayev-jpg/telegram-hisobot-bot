@@ -1,10 +1,10 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# Tokeningizni shu yerga qo‘ying
+# Telegram Father’dan olgan tokeningizni shu yerga yozing
 TOKEN = "8710337110:AAHKd6fff-OVSzG7qk_u1LHl3yi2UGwlg04"
 
-# Hozircha 3 ta bo‘lim
+# Boshlang‘ich 3 bo‘lim
 sections = {
     "Bolim1": "Bolim1 ga oid malumot",
     "Bolim2": "Bolim2 ga oid malumot",
