@@ -2,7 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # Tokeningizni shu yerga qo‘ying
-TOKEN = "BU_YERGA_TOKENINGIZNI_QOYING"
+TOKEN = "8710337110:AAHKd6fff-OVSzG7qk_u1LHl3yi2UGwlg04"
 
 # Hozircha 3 ta bo‘lim
 sections = {
@@ -21,7 +21,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
     await query.edit_message_text(text=sections[query.data])
 
-app = ApplicationBuilder("8710337110:AAHKd6fff-OVSzG7qk_u1LHl3yi2UGwlg04").token(TOKEN).build()
+app = ApplicationBuilder().token(TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(button))
