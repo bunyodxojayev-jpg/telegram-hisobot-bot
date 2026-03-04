@@ -1,7 +1,6 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-# Telegram 8710337110:AAHKd6fff-OVSzG7qk_u1LHl3yi2UGwlg04
 TOKEN = "8710337110:AAHKd6fff-OVSzG7qk_u1LHl3yi2UGwlg04"
 
 # Boshlang‘ich 3 bo‘lim
